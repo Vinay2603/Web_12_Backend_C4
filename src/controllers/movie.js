@@ -1,5 +1,5 @@
 const express = require("express")
-const Movie = require("../models/movies")
+const Movie = require("../modules/movie")
 const router = express.Router()
 
 router.post("/" , async(req,res)=>{

@@ -1,5 +1,5 @@
 const express = require("express")
-const  Seat = require("../models/seat")
+const  Seat = require("../modules/seat")
 const router = express.Router()
 
 router.post("/" , async(req,res)=>{

@@ -1,5 +1,5 @@
 const express = require("express")
-const Show = require("../models/show")
+const Show = require("../modules/show")
 const router = express.Router()
 
 router.post("/" , async(req,res)=>{

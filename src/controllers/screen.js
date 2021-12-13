@@ -1,5 +1,5 @@
 const express = require("express")
-const Screen = require("../models/screen")
+const Screen = require("../modules/screen")
 const router = express.Router()
 
 router.post("/" , async(req,res)=>{

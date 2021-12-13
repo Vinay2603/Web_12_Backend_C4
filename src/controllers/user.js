@@ -1,6 +1,6 @@
 const express = require("express")
 const User = require("../modules/user")
-const router = express.Router()
+const router = express.Router();
 
 router.post("/" , async(req,res)=>{
     try{
@@ -10,3 +10,8 @@ router.post("/" , async(req,res)=>{
         return res.status(500).json({message : e.message , status: "failed"})
     }
 })
+
+
+module.exports = router ;
+
+
